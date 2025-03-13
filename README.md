@@ -20,16 +20,30 @@ Ensure you have Python installed. Install the required dependencies using:
 pip install -r requirements.txt
 ```
 
+### Installing Ollama & Llama 3 Model
+Ollama is required to run the AI-powered Q&A feature. Follow these steps to install it:
+
+#### 1️⃣ **Download and Install Ollama**
+
+For Windows, download and install Ollama from [Ollama's official site](https://ollama.ai/).
+
+#### 2️⃣ **Download Llama 3 Model**
+After installing Ollama, run the following command to download the `llama3:8b` model:
+```sh
+ollama pull llama3:8b
+```
+
+
 ## 📂 Project Structure
 ```
 📦 csv-analyzer
-├── app.py         # Main application file
-├── utils.py       # CSV file processing utilities
-├── graph.py       # Functions for data visualization
-├── models.py      # AI-based question-answering logic (LLM integration)
-└── README.md      # Project documentation
-└── requirments.txt# Dependencies
-└── data           # Sample CSV files (for testing)
+├── app.py          # Main application file
+├── utils.py        # CSV file processing utilities
+├── graph.py        # Functions for data visualization
+├── models.py       # AI-based question-answering logic (LLM integration)
+└── README.md       # Project documentation
+└── requirments.txt # Dependencies
+└── data            # Sample CSV files (for testing)
 ```
 
 
