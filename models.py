@@ -1,8 +1,8 @@
 import ollama
-from pydantic import BaseModel
-from pydantic_ai import Agent
-from pydantic_ai.models.openai import OpenAIModel
-from pydantic_ai.providers.openai import OpenAIProvider
+# from pydantic import BaseModel
+# from pydantic_ai import Agent
+# from pydantic_ai.models.openai import OpenAIModel
+# from pydantic_ai.providers.openai import OpenAIProvider
 
 
 # Function to generate an answer based on a user query and the dataset

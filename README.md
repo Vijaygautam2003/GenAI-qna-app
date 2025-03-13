@@ -17,7 +17,7 @@ The application is built using **Gradio** for the user interface and **Matplotli
 ### Prerequisites
 Ensure you have Python installed. Install the required dependencies using:
 ```sh
-pip install gradio pandas matplotlib ollama pydantic-ai
+pip install -r requirements.txt
 ```
 
 ## 📂 Project Structure
